@@ -10,7 +10,7 @@ app.use(express.json());
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID;
 const VERCEL_URL = process.env.VERCEL_URL;
-const AFFILIATE_LINK = process.env.AFFILIATE_LINK || 'https://mostbet-king.com/5rTs';
+const AFFILIATE_LINK = process.env.AFFILIATE_LINK || 'https://mostbet-king.com/5w4F';
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: false });
 
